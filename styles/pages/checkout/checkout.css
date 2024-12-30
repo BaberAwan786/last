@@ -62,14 +62,14 @@ margin: 0;
 .payment-summary {
   padding-bottom: 5px;
 }
-.name, .adress{
+.name, .address{
   font-size: 14px;
   font-weight: bold;
 }
 .input-div{
   display: flex;
 }
-.name-input, .adress-input{
+.name-input, .address-input{
   flex: 1;
   padding: 5px 5px;
   font-size: 14px;
