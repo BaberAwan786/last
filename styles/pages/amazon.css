@@ -80,7 +80,6 @@ main {
   }
   aside{
     position: fixed;
-    width: 100%;
     display: none;
   }
   .catagories{
@@ -110,6 +109,12 @@ main {
 @media (max-width: 450px) {
   .products-grid {
     grid-template-columns: 1fr;
+  }
+  body{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+  
+    "main main";
   }
 }
 
